@@ -1,0 +1,26 @@
+main {}
+/* sec1 */
+main #sec1_bg {
+    width: 100%; background: url(../images/sec1/sec1_bg.png) no-repeat center; background-size: cover;
+}
+main #sec1_bg .sec1 {
+    width: 1000px; height: 947px; margin: 0 auto; position: relative;
+}
+main #sec1_bg .sec1 .flag {
+    width: 1000px; height: 135px; display: flex; flex-flow: row nowrap; justify-content: space-between; align-items: center;
+}
+main #sec1_bg .sec1 .flag img {
+    width: 178px; height: 135px;
+}
+main #sec1_bg .sec1 .title_stamp {
+    width: 557px; height: 242px; position: absolute; top: 27px; left: calc(50% - 278.5px);
+}
+main #sec1_bg .sec1 .title_stamp img {width: 100%;}
+main #sec1_bg .sec1 .message {
+    width: 589px; height: 242px; position: absolute; top: 300px; left: calc(50% - 294.5px);
+}
+main #sec1_bg .sec1 .message img {width: 100%;}
+main #sec1_bg .sec1 .school_bus {
+    width: 722px; height: 504px; position: absolute; top: 400px; left: calc(50% - 363px);
+}
+main #sec1_bg .sec1 .school_bus img {width: 100%;}
