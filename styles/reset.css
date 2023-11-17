@@ -1,5 +1,10 @@
 * {box-sizing:border-box;}
 /*local or web(@import) 글꼴 작성위치*/
+/* 나눔명조 */
+@font-face {
+    font-family: '나눔명조_bold';
+    src: url(../fonts/NanumMyeongjoBold.ttf);
+}
 /* reset.css */
 html,body,
 h1,h2,h3,h4,h5,h6,p,blockquote,address,
