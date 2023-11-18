@@ -2,8 +2,12 @@
 /*local or web(@import) 글꼴 작성위치*/
 /* 나눔명조 */
 @font-face {
-    font-family: '나눔명조_bold';
-    src: url(../fonts/NanumMyeongjoBold.ttf);
+    font-family: '나눔명조';
+    src: url(../fonts/NanumMyeongjo.ttf);
+}
+@font-face {
+    font-family: 'notosnas_cjk';
+    src: url(../fonts/NotoSansCJKkr-Regular.ttf);
 }
 /* reset.css */
 html,body,

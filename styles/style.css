@@ -27,3 +27,26 @@ main #sec1_bg .sec1 .school_bus {
 main #sec1_bg .sec1 .school_bus img {width: 100%;}
 /* sec2 */
 main #sec2_bg {width: 100%; height: 577px; background: #9fa34e;}
+main #sec2_bg #guide_wrapper {
+    background-color: #fff3e1; width: 960px; height: 477px; margin: 0 auto; position: relative;
+}
+main #sec2_bg #guide_wrapper li {}
+main #sec2_bg #guide_wrapper li h2 {
+    font-family: '나눔명조'; font-weight: 700; font-size: 30px; text-align: center; padding: 60px 0 40px;
+}
+main #sec2_bg #guide_wrapper .h2_bracket {
+    width: 261px; height: 32px; margin: 0 auto; position: absolute; top: 58px; left: calc(50% - 130.5px);
+}
+main #sec2_bg #guide_wrapper .h2_bracket img {width: 100%;}
+main #sec2_bg #guide_wrapper .guide_table {
+    width: 800px; height: 254px; margin: 0 auto; margin-bottom: 20px;
+}
+main #sec2_bg #guide_wrapper .guide_table img {width: 100%;}
+main #sec2_bg #guide_wrapper .present {
+    font-family: 'notosans_cjk'; font-weight: 400; font-size: 15px; text-align: center;
+}
+main #sec2_bg #guide_wrapper .present em {font-weight: 500;}
+main #sec2_bg #guide_wrapper .deadline_bedge {
+    width: 84.01px; height: 84.01px; position: absolute; top: 114px; right: 35px;
+}
+main #sec2_bg #guide_wrapper .deadline_bedge img {width: 100%;}
