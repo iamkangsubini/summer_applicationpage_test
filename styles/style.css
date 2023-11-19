@@ -268,3 +268,21 @@ main #sec8_bg #sec8 .yuji {
 }
 main #sec8_bg #sec8 .yuji img {width: 100%;}
 /* sec9 */
+main #sec9_bg {
+    width: 100%; background-color: #f8f8f8;
+}
+main #sec9_bg #sec9 {
+    width: 960px; height: 725px; margin: 0 auto; position: relative;
+}
+main #sec9_bg #sec9 .note {
+    position: absolute; top: 97px;
+    display: flex; flex-flow: row nowrap; justify-content: flex-start;
+}
+main #sec9_bg #sec9 .note .title {
+    width: 90.20px; height: 20px; margin-right: 25px;
+}
+main #sec9_bg #sec9 .note .title img {width: 100%;}
+main #sec9_bg #sec9 .note .contents {
+    width: 839px; height: 525px;
+}
+main #sec9_bg #sec9 .note .contents img {width: 100%;}
