@@ -232,3 +232,39 @@ main #sec7_bg #sec7 .qna img:last-child {
     width: 960px; height: 203px;
 }
 /* sec8 */
+main #sec8_bg {
+    width: 100%; background: url(../images/sec8/sec8_bg.png) no-repeat center; background-size: cover;
+}
+main #sec8_bg #sec8 {
+    width: 960px; height: 886px; margin: 0 auto; position: relative;
+}
+main #sec8_bg #sec8 .h2 {
+    position: absolute; top: 100px; left: 50%; transform: translateX(-50%);
+}
+main #sec8_bg #sec8 .h2 h2 {
+    font-family: '나눔명조'; font-weight: 700; font-size: 30px;
+}
+main #sec8_bg #sec8 .h2_bracket {
+    width: 261px; height: 32px; position: absolute;
+    top: 98px; left: calc(50% - 130.5px);
+}
+main #sec8_bg #sec8 .h2_bracket img {width: 100%;}
+main #sec8_bg #sec8 .board {
+    width: 960px; height: 299px; position: absolute;
+    top: 168px; left: calc(50% - 480px);
+}
+main #sec8_bg #sec8 .board img {width: 100%;}
+main #sec8_bg #sec8 .application {
+    position: absolute; top: 490px; left: 50%; transform: translate(-50%);
+}
+main #sec8_bg #sec8 .application #application_btn {
+    font-family: 'notosnas_cjk'; font-weight: 500; font-size: 20px;
+    color: #ffffff; background-color: #2e2c27; padding: 25px 104px;
+    border-radius: 5px;
+}
+main #sec8_bg #sec8 .yuji {
+    width: 189.01px; height: 289.99px; position: absolute;
+    bottom: 16px; left: 50%; transform: translateX(-50%);
+}
+main #sec8_bg #sec8 .yuji img {width: 100%;}
+/* sec9 */
