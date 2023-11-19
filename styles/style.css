@@ -1,3 +1,4 @@
+/* font-weight에서 light는 400으로 지정 > 300 너무 얇음 */
 main {}
 /* sec1 */
 main #sec1_bg {
@@ -54,21 +55,66 @@ main #sec2_bg #guide_wrapper .deadline_bedge img {width: 100%;}
 main #sec3_bg {width: 100%; background: url(../images/sec3/sec3_bg.png) no-repeat center; background-size: cover;}
 main #sec3_bg #sec3 {
     width: 1000px; height: 1296px; margin: 0 auto; position: relative;
-    display: flex; flex-flow: column nowrap; align-items: center;
 }
-main #sec3_bg #sec3 .frame {
-    background-image: url(../images/sec3/frmae.png);
-    background-size: cover;
-    width: 480px; height: 296px;
-    margin: 151px 0 141px;
+main #sec3_bg #sec3 .interview_video {
+    position: absolute; top: 178px; left: calc(50% - 230px);
 }
-main #sec3_bg #sec3 .frame video {
-    width: 460px; height: 259px; margin: 0 auto;
+main #sec3_bg #sec3 .interview_video video {
+    width: 460px; height: 259px;
 }
-main #sec3_bg #sec3 .best_review {}
-main #sec3_bg #sec3 .best_review a {}
-main #sec3_bg #sec3 .best_review a img {}
-main #sec3_bg #sec3 .review_all {}
-main #sec3_bg #sec3 .review_all a {}
-main #sec3_bg #sec3 .yuji {}
-main #sec3_bg #sec3 .yuji img {}
+main #sec3_bg #sec3 .best_review {
+    position: absolute; bottom: 210px; left: calc(50% - 480px);
+    display: flex; flex-flow: row wrap; justify-content: space-between;
+    height: 497px;
+}
+main #sec3_bg #sec3 .best_review a {
+    width: 300px; height: 243px;
+}
+main #sec3_bg #sec3 .best_review a img {width: 100%;}
+main #sec3_bg #sec3 .review_all {
+    position: absolute; bottom: 100px; left: 50%;
+    transform: translateX(-50%);
+}
+main #sec3_bg #sec3 .review_all a {
+    font-family: 'notosnas_cjk'; font-weight: 500; font-size: 20px;
+    color: #ffffff; background-color: #2e2c27;
+    display: inline-block; text-align: center; padding: 25px 81px;
+    border-radius: 5px;
+}
+main #sec3_bg #sec3 .yuji {
+    width: 165px; height: 232.14px; position: absolute;
+    bottom: 0; right: 0;
+}
+main #sec3_bg #sec3 .yuji img {width: 100%;}
+/* sec4 */
+main #sec4_bg {
+    width: 100%; background: url(../images/sec4/sec4_bg.png) no-repeat center; background-size: cover;
+}
+main #sec4_bg #sec4 {
+    width: 1200px; height: 905px; margin: 0 auto; position: relative;
+}
+main #sec4_bg #sec4 .blackboard {
+    width: 1000px; height: 571px; position: absolute; top: 150px;
+    left: calc(50% - 500px);
+}
+main #sec4_bg #sec4 .blackboard img {width: 100%;}
+main #sec4_bg #sec4 .h2 {
+    position: absolute; top: 230px; left: 50%; 
+    transform: translateX(-50%);
+}
+main #sec4_bg #sec4 .h2 h2 {
+    font-family: '나눔명조'; font-weight: 700; font-size: 30px;
+    color: #ffffff; 
+}
+main #sec4_bg #sec4 .target_time {
+    position: absolute; top: 631px; left: 50%; transform: translateX(-50%);
+    font-family: 'notosnas_cjk'; font-weight: 400; font-size: 15px;
+    color: #ffffff;
+}
+main #sec4_bg #sec4 .target_time em {font-weight: 500;}
+main #sec4_bg #sec4 .yuji {
+    width: 150px; height: 232.90px; position: absolute;
+    bottom: 0; left: 220px;
+}
+main #sec4_bg #sec4 .yuji img {width: 100%;}
+/* sec5 */
