@@ -1,4 +1,3 @@
-/* font-weight에서 light는 400으로 지정 > 300 너무 얇음 */
 main {}
 /* sec1 */
 main #sec1_bg {
@@ -44,7 +43,7 @@ main #sec2_bg #guide_wrapper .guide_table {
 }
 main #sec2_bg #guide_wrapper .guide_table img {width: 100%;}
 main #sec2_bg #guide_wrapper .present {
-    font-family: 'notosans_cjk'; font-weight: 400; font-size: 15px; text-align: center;
+    font-family: 'notosans_cjk'; font-weight: 300; font-size: 15px; text-align: center;
 }
 main #sec2_bg #guide_wrapper .present em {font-weight: 500;}
 main #sec2_bg #guide_wrapper .deadline_bedge {
@@ -108,7 +107,7 @@ main #sec4_bg #sec4 .h2 h2 {
 }
 main #sec4_bg #sec4 .target_time {
     position: absolute; top: 631px; left: 50%; transform: translateX(-50%);
-    font-family: 'notosnas_cjk'; font-weight: 400; font-size: 15px;
+    font-family: 'notosnas_cjk'; font-weight: 300; font-size: 15px;
     color: #ffffff;
 }
 main #sec4_bg #sec4 .target_time em {font-weight: 500;}
@@ -118,3 +117,41 @@ main #sec4_bg #sec4 .yuji {
 }
 main #sec4_bg #sec4 .yuji img {width: 100%;}
 /* sec5 */
+main #sec5_bg {
+    width: 100%; background: url(../images/sec5/sec5_bg.png) no-repeat center; background-size: cover;
+}
+main #sec5_bg #sec5 {
+    width: 960px; height: 1480px; margin: 0 auto; position: relative;
+}
+main #sec5_bg #sec5 .h2 {
+    position: absolute; top: 148px; left: 50%; transform: translateX(-50%);
+}
+main #sec5_bg #sec5 .h2 h2 {
+    font-family: '나눔명조'; font-weight: 700; font-size: 45px;
+}
+main #sec5_bg #sec5 .h2_bracket {
+    width: 360px; height: 96px; position: absolute; top: 122px;
+    left: calc(50% - 180px);
+}
+main #sec5_bg #sec5 .h2_bracket img {width: 100%;}
+main #sec5_bg #sec5 .program_challenge {
+    position: absolute; top: 252px; left: 50%; transform: translateX(-50%); width: 600px;
+}
+main #sec5_bg #sec5 .program_challenge p {
+    font-family: 'notosnas_cjk'; font-weight: 300; font-size: 18px;
+    text-align: center; line-height: 27px;
+}
+main #sec5_bg #sec5 .program_challenge p em {
+    font-family: 'notosnas_cjk'; font-weight: 500; font-size: 18px;
+}
+main #sec5_bg #sec5 .mission_gola {
+    width: 960px; height: 955px; position: absolute;
+    top: 340px; left: calc(50% - 480px);
+}
+main #sec5_bg #sec5 .mission_gola img {width: 100%;}
+main #sec5_bg #sec5 .yuji {
+    width: 150.99px; height: 219px; position: absolute;
+    bottom: 0; right: 240px;
+}
+main #sec5_bg #sec5 .yuji img {width: 100%;}
+/* sec6 */
