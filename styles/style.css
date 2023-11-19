@@ -155,3 +155,46 @@ main #sec5_bg #sec5 .yuji {
 }
 main #sec5_bg #sec5 .yuji img {width: 100%;}
 /* sec6 */
+main #sec6_bg {
+    width: 100%; background: url(../images/sec6/sec6_bg.png) no-repeat center; background-size: cover;
+}
+main #sec6_bg #sec6 {
+    width: 960px; height: 2778PX; margin: 0 auto; position: relative;
+}
+/* hightrank_product */
+main #sec6_bg #sec6 .highrank_product {
+    position: absolute; top: 242px; left: 50%; transform: translateX(-50%); width: 960px;
+    display: flex; flex-flow: row nowrap; justify-content: space-between;
+}
+main #sec6_bg #sec6 .highrank_product img {
+    width: 465px; height: 502px;
+}
+/* day21_product */
+main #sec6_bg #sec6 .day21_product {
+    position: absolute; top: 913px; height: 924px;
+    left: 50%; transform: translateX(-50%);
+    display: flex; flex-flow: column nowrap; 
+    justify-content: space-between;
+}
+main #sec6_bg #sec6 .day21_product p {
+    width: 960px; height: 502px;
+}
+main #sec6_bg #sec6 .day21_product p img {width: 100%;}
+main #sec6_bg #sec6 .day21_product .hour_product {
+    display: flex; flex-flow: row nowrap; justify-content: space-between;
+}
+main #sec6_bg #sec6 .day21_product .hour_product img {
+    width: 300px; height: 388px;
+}
+/* mission_product */
+main #sec6_bg #sec6 .mission_product {
+    width: 960px; height: 502px; position: absolute;
+    bottom: 295px; left: calc(50% - 480px);
+}
+main #sec6_bg #sec6 .mission_product img {width: 100%;}
+main #sec6_bg #sec6 .yuji {
+    width: 184px; height: 259px; position: absolute;
+    bottom: 0; left: calc(50% - 92px);
+}
+main #sec6_bg #sec6 .yuji img {width: 100%;}
+/* sec7 */
