@@ -198,3 +198,37 @@ main #sec6_bg #sec6 .yuji {
 }
 main #sec6_bg #sec6 .yuji img {width: 100%;}
 /* sec7 */
+main #sec7_bg {
+    width: 100%; background-color: #5e3932;
+}
+main #sec7_bg #sec7 {
+    width: 960px; height: 1307px; margin: 0 auto; position: relative;
+}
+main #sec7_bg #sec7 .h2 {
+    position: absolute; top: 68px; left: 50%; transform: translateX(-50%);
+    font-family: '나눔명조'; font-weight: 700; font-size: 30px;
+    color: #ffffff;
+}
+main #sec7_bg #sec7 .h2_bracket {
+    width: 280px; height: 32px; position: absolute; top: 68px;
+    left: calc(50% - 140px);
+}
+main #sec7_bg #sec7 .h2_bracket img {width: 100%;}
+main #sec7_bg #sec7 .qna {
+    position: absolute; top: 138px; left: 50%; transform: translateX(-50%); display: flex; flex-flow: column nowrap; 
+    justify-content: space-between; height: 1072px;
+}
+main #sec7_bg #sec7 .qna img {}
+main #sec7_bg #sec7 .qna img:first-child {
+    width: 960px; height: 311px;
+}
+main #sec7_bg #sec7 .qna img:nth-child(2) {
+    width: 960px; height: 251px;
+}
+main #sec7_bg #sec7 .qna img:nth-child(3) {
+    width: 960px; height: 214px;
+}
+main #sec7_bg #sec7 .qna img:last-child {
+    width: 960px; height: 203px;
+}
+/* sec8 */
